@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yatra+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yatra+One&family=Ysabeau+Office:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Poppins&family=Yatra+One&family=Ysabeau+Office:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/hpg.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yatra One', cursive;
+    color: white;
+    font-size: 50px;
+}
+
+.container{
+    background-color: black;
+    height: 50vh;
+    width: 100%;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+.container p{
+    width: 80%;
+    font-weight: 100;
+}
+
+.info{
+    bottom: 100px;
+    position: absolute;
+    right: 80px;
+    font-family: 'Forum', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yatra One', cursive;
+font-family: 'Ysabeau Office', sans-serif;
+    
+}
+
+.moreinfo{
+    justify-content: left;
+    bottom: 50px;
+    position: absolute;
+    right: 80px;
+    font-size: 20px;
+    font-family: 'Forum', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yatra One', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.body{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    background-image: url('Images/as4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-weight: 600;
+    background-blend-mode:hard-light;
+}
+
+.section1{
+    height: 60vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+}
+
+.container2{
+    
+    height: 100%;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    background-color: black;
+}
+
+
+nav{
+    position:fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.05);    
+    color: white;
+    height: 10vh;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Yatra One', cursive;
+font-family: 'Ysabeau Office', sans-serif;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.082);
+    color:white;
+    width: 90%;
+    max-width: 300px;
+    margin:auto;
+    margin-top:10vh;
+    padding: 20px;
+    align-items: center;
+    display:grid;
+    border-radius: 15px;
+    height: 80%;
+    overflow:auto;
+    max-height: 700px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+.boxes p{
+    margin-top: 15px;
+    font-family: 'Forum', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yatra One', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+
+.section1 span{
+    padding-bottom: 15px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Yatra One', cursive;
+font-family: 'Ysabeau Office', sans-serif;
+}
+
+.footer{
+    bottom:40px;
+    width: 100vw;
+    height: 8vh;
+    font-size: 15px;
+    padding-top: 30px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.boxes span{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
